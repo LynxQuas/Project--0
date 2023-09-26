@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Advance Search</title>
+</head>
+<body> 
+      <header>
+          <nav class="advance_search_nav">
+              <div class="nav_logo">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google" class="nav_logo" width="100">
+              </div>
+
+              <ul>
+                    <li>
+                        <a href="/img.html">Image search</a>
+                    </li>
+                    <li>
+                        <a href="/index.html">Google search</a>
+                    </li>
+                </ul>
+            </nav>
+      </header>  
+
+      <section>
+        <div class="appbar">
+             <label class="advance_text">Advance Search</label>
+        </div>
+
+        <div class="line"></div>
+
+        <form action="https://www.google.com/search" id="advance_search">
+            <span>Find page with...</span>
+            <div>
+                <label for="words">all these words.</label>
+                <input type="text" id="words" name="as_q" autocomplete="off">
+            </div>
+
+            <div>
+                <label for="phrase">this exact word or phrase</label>
+                <input type="text" id="phrase" name="as_epq" autocomplete="off">
+            </div>
+
+            <div>
+                <label for="any_of_these_words">any of these words</label>
+                <input type="text" id="any_of_these_words" name="as_oq" autocomplete="off">
+            </div>
+
+            <div>
+                <label for="none_of_these_words">none of these words</label>
+                <input type="text" id="none_of_these_words" name="as_eq" autocomplete="off">
+            </div>
+
+            <div class="end">
+                <button type="submit">Advance Search</button>
+            </div>
+            
+        </form>
+      </section>
+</body>
+</html>
