@@ -145,4 +145,10 @@ main form .center .btn {
   background-color: #4285f4;
 }
 
+@media only screen and (max-width: 500px) {
+  .end {
+    width: 100% !important;
+  }
+}
+
 /*# sourceMappingURL=output.css.map */
